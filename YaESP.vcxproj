@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{50340DBD-3866-41A9-8EFB-FAA1E7611FFF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>YaESP</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(ProjectDir)Aero\contrib\DirectX-SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)Aero\Include;$(ProjectDir);$(ProjectDir)Aero\contrib\DirectX-SDK\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(ProjectDir)Aero\contrib\DirectX-SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)Aero\Include;$(ProjectDir);$(ProjectDir)Aero\contrib\DirectX-SDK\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(ProjectDir)Aero\contrib\DirectX-SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)Aero\Include;$(ProjectDir);$(ProjectDir)Aero\contrib\DirectX-SDK\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>$(ProjectDir)Aero\contrib\DirectX-SDK\Lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)Aero\Include;$(ProjectDir);$(ProjectDir)Aero\contrib\DirectX-SDK\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/D_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/D_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/D_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/D_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\audiodefs.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\comdecl.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D2D1.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D2D1Helper.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D2DBaseTypes.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D2Derr.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10effect.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d10misc.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d10sdklayers.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10shader.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10_1.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10_1shader.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D11.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D11SDKLayers.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D11Shader.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d9.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d9caps.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d9types.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3Dcommon.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3Dcompiler.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DCSX.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx10async.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10core.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10math.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10mesh.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10tex.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX11.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX11async.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX11core.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX11tex.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9anim.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9core.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9effect.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9math.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9mesh.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9shader.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9shape.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9tex.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9xof.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\Dcommon.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dinput.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dinputd.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dsconf.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dsetup.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dsound.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DWrite.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dxdiag.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DxErr.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dxfile.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DXGI.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DXGIFormat.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DXGIType.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dxsdkver.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\gameux.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\PIXPlugin.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\rmxfguid.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\rmxftmpl.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\rpcsal.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\X3DAudio.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xact3.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xact3d3.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xact3wb.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAPO.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAPOBase.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAPOFX.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAudio2.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAudio2fx.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XDSP.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XInput.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xma2defs.h" />
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xnamath.h" />
+    <ClInclude Include="Aero\include\drawing\Color.hpp" />
+    <ClInclude Include="Aero\include\render\Device2D.hpp" />
+    <ClInclude Include="Aero\include\render\Device3D9.hpp" />
+    <ClInclude Include="Aero\include\render\Font.hpp" />
+    <ClInclude Include="Aero\include\render\Font2D.hpp" />
+    <ClInclude Include="Aero\include\render\Font3D9.hpp" />
+    <ClInclude Include="Aero\include\render\Overlay.hpp" />
+    <ClInclude Include="Aero\include\render\Surface.hpp" />
+    <ClInclude Include="Aero\include\render\Surface2D.hpp" />
+    <ClInclude Include="Aero\include\render\Surface3D9.hpp" />
+    <ClInclude Include="Aero\include\stdafx.hpp" />
+    <ClInclude Include="EntityMgr.h" />
+    <ClInclude Include="ESP.h" />
+    <ClInclude Include="Mem.h" />
+    <ClInclude Include="ObfuscationMgr.h" />
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="StackAccess.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Aero\src\Color.cpp" />
+    <ClCompile Include="Aero\src\Device2D.cpp" />
+    <ClCompile Include="Aero\src\Device3D9.cpp" />
+    <ClCompile Include="Aero\src\Font2D.cpp" />
+    <ClCompile Include="Aero\src\Font3D9.cpp" />
+    <ClCompile Include="Aero\src\Overlay.cpp" />
+    <ClCompile Include="Aero\src\Surface.cpp" />
+    <ClCompile Include="Aero\src\Surface2D.cpp" />
+    <ClCompile Include="Aero\src\Surface3D9.cpp" />
+    <ClCompile Include="EntityMgr.cpp" />
+    <ClCompile Include="ESP.cpp" />
+    <ClCompile Include="Mem.cpp" />
+    <ClCompile Include="ObfuscationMgr.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StackAccess.cpp" />
+    <ClCompile Include="YaESP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aero\contrib\DirectX-SDK\Include\D3DX10math.inl" />
+    <None Include="Aero\contrib\DirectX-SDK\Include\d3dx9math.inl" />
+    <None Include="Aero\contrib\DirectX-SDK\Include\D3DX_DXGIFormatConvert.inl" />
+    <None Include="Aero\contrib\DirectX-SDK\Include\xnamathconvert.inl" />
+    <None Include="Aero\contrib\DirectX-SDK\Include\xnamathmatrix.inl" />
+    <None Include="Aero\contrib\DirectX-SDK\Include\xnamathmisc.inl" />
+    <None Include="Aero\contrib\DirectX-SDK\Include\xnamathvector.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

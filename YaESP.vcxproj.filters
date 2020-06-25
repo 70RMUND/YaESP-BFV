@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AeroSrc">
+      <UniqueIdentifier>{808af3d4-41df-43e8-b088-65c93f99797b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectXInc">
+      <UniqueIdentifier>{1251102b-6dd8-48f3-9123-13c134294e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectXInc\AeroInc">
+      <UniqueIdentifier>{dab34d41-8ba2-4c2d-9918-5d23e70e679f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aero\include\render\Surface3D9.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\drawing\Color.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\render\Device2D.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\render\Device3D9.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\render\Font.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\render\Font2D.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\render\Font3D9.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\render\Overlay.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\render\Surface.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\render\Surface2D.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\audiodefs.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\comdecl.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D2D1.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D2D1Helper.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D2DBaseTypes.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D2Derr.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d9.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d9caps.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d9types.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10_1.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10_1shader.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10effect.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d10misc.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3d10sdklayers.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D10shader.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D11.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D11SDKLayers.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3D11Shader.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3Dcommon.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3Dcompiler.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DCSX.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9anim.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9core.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9effect.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9math.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9mesh.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9shader.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9shape.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9tex.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx9xof.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\d3dx10async.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10core.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10math.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10mesh.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX10tex.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX11.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX11async.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX11core.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\D3DX11tex.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\Dcommon.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dinput.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dinputd.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dsconf.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dsetup.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dsound.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DWrite.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dxdiag.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DxErr.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dxfile.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DXGI.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DXGIFormat.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\DXGIType.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\dxsdkver.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\gameux.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\PIXPlugin.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\rmxfguid.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\rmxftmpl.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\rpcsal.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\X3DAudio.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xact3.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xact3d3.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xact3wb.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAPO.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAPOBase.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAPOFX.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAudio2.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XAudio2fx.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XDSP.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\XInput.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xma2defs.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\contrib\DirectX-SDK\Include\xnamath.h">
+      <Filter>Header Files\DirectXInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aero\include\stdafx.hpp">
+      <Filter>Header Files\DirectXInc\AeroInc</Filter>
+    </ClInclude>
+    <ClInclude Include="Mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObfuscationMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YaESP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Surface3D9.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Surface2D.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Surface.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Overlay.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Font3D9.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Font2D.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Device3D9.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Device2D.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aero\src\Color.cpp">
+      <Filter>Source Files\AeroSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="ObfuscationMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackAccess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Aero\contrib\DirectX-SDK\Include\D3DX_DXGIFormatConvert.inl">
+      <Filter>Header Files\DirectXInc</Filter>
+    </None>
+    <None Include="Aero\contrib\DirectX-SDK\Include\d3dx9math.inl">
+      <Filter>Header Files\DirectXInc</Filter>
+    </None>
+    <None Include="Aero\contrib\DirectX-SDK\Include\D3DX10math.inl">
+      <Filter>Header Files\DirectXInc</Filter>
+    </None>
+    <None Include="Aero\contrib\DirectX-SDK\Include\xnamathconvert.inl">
+      <Filter>Header Files\DirectXInc</Filter>
+    </None>
+    <None Include="Aero\contrib\DirectX-SDK\Include\xnamathmatrix.inl">
+      <Filter>Header Files\DirectXInc</Filter>
+    </None>
+    <None Include="Aero\contrib\DirectX-SDK\Include\xnamathmisc.inl">
+      <Filter>Header Files\DirectXInc</Filter>
+    </None>
+    <None Include="Aero\contrib\DirectX-SDK\Include\xnamathvector.inl">
+      <Filter>Header Files\DirectXInc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
